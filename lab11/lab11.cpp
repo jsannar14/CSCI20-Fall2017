@@ -9,27 +9,6 @@
 
 */
 
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <string>
-using namespace std;
 
-    int main()
-    {
-        int x = 1;
-        int y = 500;
-        
-            cout << "Please pick a number between " << x << " and " << y;
-        
-        int i;
-        cout >> i;
-        
-        
-        
-        
-        
-    }
-    
     
     
