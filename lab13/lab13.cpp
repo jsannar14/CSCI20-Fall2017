@@ -8,7 +8,7 @@
  int main() 
  {
     int populationCurrent =  325365189; 
-    int year = 31536000;
+    int year = 31536000; // Year in seconds 
     int netGain = 12; // Net gain of one person in seconds( Net gain of one person every "12" seconds)
     int populationGain = year / netGain;
     int yearInput; 
