@@ -8,10 +8,10 @@
  int main() 
  {
     int populationCurrent =  325365189; 
-    int year = 31536000; // Year in seconds 
+    int yearSec = 31536000; // Year in seconds 
     int netGain = 12; // Net gain of one person in seconds( Net gain of one person every "12" seconds)
-    int populationGain = year / netGain;
-    int yearInput; 
+    int populationGain = yearSec / netGain;
+    int yearInput;
     
      cout << "Enter the number of years you would like predict the human population of the United States (Ex. 99) "<< endl;
    
