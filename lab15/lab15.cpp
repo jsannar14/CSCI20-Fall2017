@@ -54,3 +54,25 @@ using namespace std;
 
     
     }
+    
+    /*
+    Running /home/ubuntu/workspace/lab15/lab15.cpp
+Please enter an adjective
+long
+Please enter a plural noun
+bikes
+Please enter another plural noun
+dogs
+Please enter one more plural noun
+cats
+oh no wait, enter another plural noun
+fishes
+Please enter a type of liquid
+water
+Please enter an exclaimation (Example: Woah!)
+No! 
+Children are fascinated by long. Stuff like that in stories is likely to scare the bikes out of them or make their dogs stand on end. 
+It is especially funny when they get so scared that their fishes fills with water. Most of the time the kids will scream No! when they are scared.
+No matter the age of the person, they fear cats. Becuase nobody is brave enough to face cats
+
+    */
