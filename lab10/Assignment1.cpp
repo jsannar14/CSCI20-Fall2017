@@ -1,9 +1,11 @@
+//Created By: John Sannar
+//Created On: 9/9/2016 
+//A calculator for yogurt and its costs.
 
- 
  #include <iostream>
  using namespace std;
  
- struct yogurt { 
+ struct yogurt { // This is my built struct so that I can establish these variables and the object that falls under what "yogurt" is
   int numOunces;
   int numToppings;
   int tip;
@@ -126,6 +128,22 @@ Total for today is: $: 7.08
  
  
  D)
+Please enter the amount in ounces of yogurt you have: 
+14 
+You have entered 14 ounces
+Please enter the amount of toppings you have selected (Please note that each topping is $0.50: 
+10
+You have 10 toppings to your yogurt
+if you have a coupon please enter the value now (Example for 50% off just enter 50) 
+50
+now please enter the amount that you would like to include as a tip (example 1.50) : 
+1.00
+Ounces of yogurt: 14
+Cost of toppings: $5
+Sales Tax: $0.58
+Your discount saved you : $4
+Your tip: $1
+Total for today is: $: 5.58
 
  
  */
