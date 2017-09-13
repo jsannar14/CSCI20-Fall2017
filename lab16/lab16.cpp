@@ -1,21 +1,21 @@
 //Created By: John Sannar
-//Created On: 9/9/2016 
-//A calculator for yogurt and its costs.
+//Created On: 9/12/2017
+//A stock portfolio coding thing
 
  #include <iostream>
  using namespace std;
  
  struct stockPortfolio { 
-  string stockName = "";
-  string sector = "";
-  int numberOfShares = 0;
-  double currentSharePrice = 0.0;
+  string stockName = ""; // the stock name delcaration
+  string sector = ""; // the sector type 
+  int numberOfShares = 0; // number of shares
+  double currentSharePrice = 0.0; // current share price of the 
   double totalValue = 0.0;
  };
  
  int main()
  {
-   stockPortfolio stockPortfolioA;
+   stockPortfolio stockPortfolioA; // First Stock Values
    
    stockPortfolioA.stockName = "FordM";
    stockPortfolioA.sector = "A";
@@ -38,7 +38,7 @@
         
             cin >> stockPortfolioA.numberOfShares;
    
- stockPortfolio stockPortfolioB;
+ stockPortfolio stockPortfolioB; // Second stock Values
    
    stockPortfolioB.stockName = "Albertsn";
    stockPortfolioB.sector = "C";
@@ -62,7 +62,7 @@
             cin >> stockPortfolioB.numberOfShares;
         
    
-   stockPortfolio stockPortfolioC;
+   stockPortfolio stockPortfolioC; // Third value inputs
    
    stockPortfolioC.stockName = "Albertsn";
    stockPortfolioC.sector = "C";
@@ -85,7 +85,7 @@
         
             cin >> stockPortfolioC.numberOfShares;
             
-    stockPortfolio stockPortfolioD;
+    stockPortfolio stockPortfolioD; // fourth stock portfolio
    
    stockPortfolioD.stockName = "Albertsn";
    stockPortfolioD.sector = "C";
@@ -111,7 +111,7 @@
         
             
             
-        stockPortfolioA.totalValue = (stockPortfolioA.numberOfShares * stockPortfolioA.currentSharePrice);
+        stockPortfolioA.totalValue = (stockPortfolioA.numberOfShares * stockPortfolioA.currentSharePrice);// calculator for the total value.
         stockPortfolioB.totalValue = (stockPortfolioB.numberOfShares * stockPortfolioB.currentSharePrice);
         stockPortfolioC.totalValue = (stockPortfolioC.numberOfShares * stockPortfolioC.currentSharePrice);
         stockPortfolioD.totalValue = (stockPortfolioD.numberOfShares * stockPortfolioD.currentSharePrice);
@@ -129,3 +129,27 @@
    
    
  }
+ 
+ /*
+ Stock Name  Stock Sector  Number of Shares Current Value  Total Value 
+
+ ----------  ------------  ---------------- -------------  ----------- 
+ FordM        A             87               18.76             1632.12
+ Albertsn        C             542               34.39             18639.4
+ AAPL        T             5               145.91             729.55
+ TSLA        A             50               375.64             18782
+Total Portfolio: $39783.1
+
+ Stock Name  Stock Sector  Number of Shares Current Value  Total Value 
+
+ ----------  ------------  ---------------- -------------  ----------- 
+ Albertsn        C             542               34.39             18639.4
+ AAPL        T             5               145.91             729.55
+ TSLA        A             50               375.64             18782
+ Amz        C             243               982.58             238767
+Total Portfolio: $276918
+
+ 
+ 
+ 
+ */
