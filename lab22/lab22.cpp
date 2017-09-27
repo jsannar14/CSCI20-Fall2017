@@ -1,6 +1,6 @@
 //Created By: John Sannar
-//Created On: 9/12/2017
-//A stock portfolio coding thing
+//Created On: 9/21/2017
+//create a function for a random number than call it into the main function.
 
  #include <iostream>
  #include <cmath>
@@ -9,7 +9,7 @@
 
 int randomNumber(){ // This is the main fuction that calculates the random number
     int lowRange = 1;
-    int highRange =100;
+    int highRange = 100;
     srand(time(0));
     int randNum = rand()%((highRange - lowRange) + 1); // equation for calculating random number from given range
     
