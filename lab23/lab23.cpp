@@ -7,6 +7,18 @@
  #include <cstdlib>
  using namespace std;
 
+int randomNumber(){ // This is the main fuction that calculates the random number
+    int lowRange = 1;
+    int highRange = 100;
+    srand(time(0));
+    int randNum = rand()%((highRange - lowRange) + 1); // equation for calculating random number from given range
+    
+    cout << "Your random number is "<<  randNum << "  " << endl;
+    
+    return 0;
+    
+}
+
 int main(){
  srand(time(0));
  int numOne;
