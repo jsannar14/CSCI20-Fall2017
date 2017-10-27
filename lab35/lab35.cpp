@@ -8,11 +8,6 @@ class TemperatureConverter{
     TemperatureConverter();
     TemperatureConverter(double deg_kelvin);
     
-   
-    
-    
-   
-    
     void SetTempFromKelvin(double deg_kelvin);
     void SetTempFromFahrenheit(double deg_fahrenheit);
     void SetTempFromCelsius(double deg_celcius);
@@ -102,7 +97,7 @@ void TemperatureConverter :: PrintTemperatures(){
     
     cout << " Your temp in Kelvin is: " << GetTempFromKelvin() << endl;
     cout << " Your temp in Farenheit is:  " << GetTempAsFahrenheit() << endl;
-    cout << " YOur temp in Celsius is: " << GetTempAsCelsius() << endl;
+    cout << " Your temp in Celsius is: " << GetTempAsCelsius() << endl;
     
 }
 
